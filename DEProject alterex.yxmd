@@ -1,0 +1,956 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="738" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Mahd\AppData\Local\Temp\Alteryx\Engine_28476_bf64d0f74d30476f85f439e359a79d5a_\Engine_28476_75012ac2c4684f63970d927479d35d36~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="642" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Mahd\AppData\Local\Temp\Alteryx\Engine_28476_bf64d0f74d30476f85f439e359a79d5a_\Engine_28476_0d1fb16b8e544669bd56805d78dc57bd~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="738" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Mahd\AppData\Local\Temp\Alteryx\Engine_28476_bf64d0f74d30476f85f439e359a79d5a_\Engine_28476_91444c994ce444a1afd2cf6ad7ba74ab~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="942" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Mahd\AppData\Local\Temp\Alteryx\Engine_28476_bf64d0f74d30476f85f439e359a79d5a_\Engine_28476_f1f45f7a94a0484fbc022d2b1ba86d17~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="450" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF Contains([post_url], &quot;post&quot;) THEN &#xA;    &quot;post&quot;&#xA;ELSEIF Contains([post_url], &quot;reel&quot;) THEN &#xA;    &quot;reel&quot;&#xA;ELSE &#xA;    Null() &#xA;ENDIF" field="post_type" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>post_type = IF Contains([post_url], "post") THEN 
+    "post"
+ELSEIF Contains([po...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="354" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Platform" selected="True" />
+            <Field field="Page" selected="True" />
+            <Field field="Post_ID" selected="True" />
+            <Field field="Post_URL" selected="True" />
+            <Field field="Short_Code" selected="True" />
+            <Field field="Type" selected="True" />
+            <Field field="Caption" selected="True" />
+            <Field field="Hashtags" selected="True" />
+            <Field field="Mentions" selected="True" />
+            <Field field="Posted_At" selected="True" />
+            <Field field="Owner_Name" selected="True" />
+            <Field field="Owner_Username" selected="True" />
+            <Field field="Owner_ID" selected="True" />
+            <Field field="First_Image_URL" selected="True" />
+            <Field field="First_Comment" selected="True" />
+            <Field field="Scraped_At" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Platform" size="9" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="String" />
+            <Field name="Page" size="12" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="String" />
+            <Field name="Post_ID" size="19" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="String" />
+            <Field name="Post_URL" size="40" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="String" />
+            <Field name="Short_Code" size="11" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="String" />
+            <Field name="Type" size="7" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="String" />
+            <Field name="Caption" size="991" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="V_WString" />
+            <Field name="Hashtags" size="110" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="V_WString" />
+            <Field name="Mentions" size="30" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Posted_At" size="24" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="String" />
+            <Field name="Likes" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="Double" />
+            <Field name="Comments_Count" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="Double" />
+            <Field name="Owner_Name" size="28" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Owner_Username" size="21" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Owner_ID" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="Int64" />
+            <Field name="Image_Count" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="Double" />
+            <Field name="First_Image_URL" size="463" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Comments_Disabled" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="Bool" />
+            <Field name="Child_Posts_Count" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="Double" />
+            <Field name="First_Comment" size="593" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="V_WString" />
+            <Field name="Scraped_At" size="32" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="354" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Platform" selected="True" />
+            <Field field="Page" selected="True" />
+            <Field field="Post_ID" selected="True" />
+            <Field field="comment_id_treated" selected="True" />
+            <Field field="Comment_Author" selected="True" />
+            <Field field="Comment_Date" selected="True" />
+            <Field field="Comment_Text" selected="True" />
+            <Field field="Comment_Likes" selected="True" />
+            <Field field="Scraped_At" selected="True" />
+            <Field field="F10" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Platform" size="8" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`facebook_comments$`" type="String" />
+            <Field name="Page" size="12" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`facebook_comments$`" type="String" />
+            <Field name="Post_ID" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`facebook_comments$`" type="Int64" />
+            <Field name="comment_id_treated" size="22" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`facebook_comments$`" type="V_String" />
+            <Field name="Comment_Author" size="74" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`facebook_comments$`" type="V_WString" />
+            <Field name="Comment_Date" size="24" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`facebook_comments$`" type="String" />
+            <Field name="Comment_Text" size="500" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`facebook_comments$`" type="V_WString" />
+            <Field name="Comment_Likes" size="35" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`facebook_comments$`" type="V_WString" />
+            <Field name="Scraped_At" size="32" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`facebook_comments$`" type="String" />
+            <Field name="F10" size="19" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`facebook_comments$`" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="354" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Platform" selected="True" />
+            <Field field="Page" selected="True" />
+            <Field field="Post_URL" selected="True" />
+            <Field field="Post_ID" selected="True" />
+            <Field field="Posted_At" selected="True" />
+            <Field field="Post_Text" selected="True" />
+            <Field field="Scraped_At" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Platform" size="8" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Facebook_posts$`" type="String" />
+            <Field name="Page" size="12" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Facebook_posts$`" type="String" />
+            <Field name="Post_URL" size="123" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Facebook_posts$`" type="V_String" />
+            <Field name="Post_ID" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Facebook_posts$`" type="Int64" />
+            <Field name="Posted_At" size="24" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Facebook_posts$`" type="String" />
+            <Field name="Post_Text" size="500" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Facebook_posts$`" type="V_WString" />
+            <Field name="Likes" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Facebook_posts$`" type="Double" />
+            <Field name="Shares" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Facebook_posts$`" type="Double" />
+            <Field name="Comments_Count" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Facebook_posts$`" type="Double" />
+            <Field name="Scraped_At" size="32" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Facebook_posts$`" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="366" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Platform" selected="True" />
+            <Field field="Page" selected="True" />
+            <Field field="Post_ID" selected="True" />
+            <Field field="Post_URL" selected="True" />
+            <Field field="Comment_ID" selected="True" />
+            <Field field="Comment_ID_old" selected="True" />
+            <Field field="comment_id_new" selected="True" />
+            <Field field="Comment_Text" selected="True" />
+            <Field field="Author_Username" selected="True" />
+            <Field field="Author_ID" selected="True" />
+            <Field field="Author_Profile_Pic_URL" selected="True" />
+            <Field field="Comment_Posted_At" selected="True" />
+            <Field field="Scraped_At" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Platform" size="9" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="String" />
+            <Field name="Page" size="12" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="String" />
+            <Field name="Post_ID" size="19" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="String" />
+            <Field name="Post_URL" size="40" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="String" />
+            <Field name="Comment_ID" size="18" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="String" />
+            <Field name="Comment_ID_old" size="20" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="String" />
+            <Field name="comment_id_new" size="20" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="String" />
+            <Field name="Comment_Text" size="1000" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="V_WString" />
+            <Field name="Author_Username" size="30" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Author_ID" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="Int64" />
+            <Field name="Author_Profile_Pic_URL" size="567" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Is_Verified" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="Bool" />
+            <Field name="Is_Private" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="Bool" />
+            <Field name="Comment_Likes" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="Double" />
+            <Field name="Replies_Count" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="Double" />
+            <Field name="Comment_Posted_At" size="24" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="String" />
+            <Field name="Scraped_At" size="32" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="String" />
+            <Field name="F18" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="Double" />
+            <Field name="F19" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="Double" />
+            <Field name="F20" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="462" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Platform" selected="True" />
+            <SelectField field="Page" selected="True" />
+            <SelectField field="Post_ID" selected="True" />
+            <SelectField field="Post_URL" selected="True" />
+            <SelectField field="Comment_ID" selected="True" />
+            <SelectField field="Comment_ID_old" selected="True" />
+            <SelectField field="comment_id_new" selected="True" />
+            <SelectField field="Comment_Text" selected="True" />
+            <SelectField field="Author_Username" selected="True" />
+            <SelectField field="Author_ID" selected="True" />
+            <SelectField field="Author_Profile_Pic_URL" selected="True" />
+            <SelectField field="Is_Verified" selected="True" />
+            <SelectField field="Is_Private" selected="True" />
+            <SelectField field="Comment_Likes" selected="True" />
+            <SelectField field="Replies_Count" selected="True" />
+            <SelectField field="Comment_Posted_At" selected="True" />
+            <SelectField field="Scraped_At" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="546" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="// 1. PROMOTIONS (Highest Priority - Drives immediate sales spikes)&#xA;IF Contains(Uppercase([Post_Text]), &quot;SALE&quot;) OR Contains(Uppercase([Post_Text]), &quot;% OFF&quot;) OR Contains(Uppercase([Post_Text]), &quot;REDUCTION&quot;) OR Contains(Uppercase([Post_Text]), &quot;CLEARANCE&quot;) &#xA;THEN &quot;Promotional Sale&quot;&#xA;&#xA;// 2. MAJOR EVENTS (Drives seasonal wardrobe overhauls)&#xA;ELSEIF Contains(Uppercase([Post_Text]), &quot;EID&quot;) &#xA;THEN &quot;Eid Collection&quot;&#xA;&#xA;ELSEIF Contains(Uppercase([Post_Text]), &quot;RAMADAN&quot;) OR Contains(Uppercase([Post_Text]), &quot;RAMAZAN&quot;) &#xA;THEN &quot;Ramadan Edit&quot;&#xA;&#xA;// 3. SEASONS / FABRICS (The core catalog drivers)&#xA;ELSEIF Contains(Uppercase([Post_Text]), &quot;SUMMER&quot;) OR Contains(Uppercase([Post_Text]), &quot;LAWN&quot;) &#xA;THEN &quot;Summer Lawn&quot;&#xA;&#xA;ELSEIF Contains(Uppercase([Post_Text]), &quot;SPRING&quot;) &#xA;THEN &quot;Spring Collection&quot;&#xA;&#xA;ELSEIF Contains(Uppercase([Post_Text]), &quot;WINTER&quot;) OR Contains(Uppercase([Post_Text]), &quot;KHADDAR&quot;) OR Contains(Uppercase([Post_Text]), &quot;VELVET&quot;) OR Contains(Uppercase([Post_Text]), &quot;LINEN&quot;)&#xA;THEN &quot;Winter Collection&quot;&#xA;&#xA;// 4. FORMATS (Evergreen products pushed when no major season/event is active)&#xA;ELSEIF Contains(Uppercase([Post_Text]), &quot;PRET&quot;) OR Contains(Uppercase([Post_Text]), &quot;READY TO WEAR&quot;) OR Contains(Uppercase([Post_Text]), &quot;FUSION&quot;)&#xA;THEN &quot;Ready to Wear / Pret&quot;&#xA;&#xA;ELSEIF Contains(Uppercase([Post_Text]), &quot;UNSTITCHED&quot;) &#xA;THEN &quot;Unstitched Collection&quot;&#xA;&#xA;// 5. DEFAULT CATCH-ALL (Prevents NULL values in your Power BI Dashboard)&#xA;ELSE &quot;Core Collection / Brand Campaign&quot;&#xA;ENDIF" field="Campaign_Category" size="2147483647" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Campaign_Category = // 1. PROMOTIONS (Highest Priority - Drives immediate sales ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="450" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Uppercase(ToString([Caption]) + &quot; &quot; + ToString([Hashtags]))" field="Combined_Text" size="2147483647" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Combined_Text = Uppercase(ToString([Caption]) + " " + ToString([Hashtags]))
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="546" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="// 1. PROMOTIONS (Highest Priority)&#xA;IF Contains([Combined_Text], &quot;SALE&quot;) OR Contains([Combined_Text], &quot;% OFF&quot;) OR Contains([Combined_Text], &quot;REDUCTION&quot;) OR Contains([Combined_Text], &quot;CLEARANCE&quot;) &#xA;THEN &quot;Promotional Sale&quot;&#xA;&#xA;// 2. MAJOR EVENTS &#xA;ELSEIF Contains([Combined_Text], &quot;EID&quot;) OR Contains([Combined_Text], &quot;EIDMUBARAK&quot;) &#xA;THEN &quot;Eid Collection&quot;&#xA;&#xA;ELSEIF Contains([Combined_Text], &quot;RAMADAN&quot;) OR Contains([Combined_Text], &quot;RAMAZAN&quot;) OR Contains([Combined_Text], &quot;IFTAR&quot;) OR Contains([Combined_Text], &quot;IFTAARI&quot;)&#xA;THEN &quot;Ramadan Edit&quot;&#xA;&#xA;// 3. SEASONS / FABRICS&#xA;ELSEIF Contains([Combined_Text], &quot;SUMMER&quot;) OR Contains([Combined_Text], &quot;LAWN&quot;) OR Contains([Combined_Text], &quot;SS’26&quot;) OR Contains([Combined_Text], &quot;SS'26&quot;) OR Contains([Combined_Text], &quot;SPRING&quot;) &#xA;THEN &quot;Spring/Summer Collection&quot;&#xA;&#xA;ELSEIF Contains([Combined_Text], &quot;WINTER&quot;) OR Contains([Combined_Text], &quot;KHADDAR&quot;) OR Contains([Combined_Text], &quot;VELVET&quot;) OR Contains([Combined_Text], &quot;LINEN&quot;)&#xA;THEN &quot;Winter Collection&quot;&#xA;&#xA;// 4. FORMATS &amp; LUXURY (Evergreen categories)&#xA;ELSEIF Contains([Combined_Text], &quot;FORMAL&quot;) OR Contains([Combined_Text], &quot;KHAAS&quot;) OR Contains([Combined_Text], &quot;CHIFFON&quot;)&#xA;THEN &quot;Formals / Luxury&quot;&#xA;&#xA;ELSEIF Contains([Combined_Text], &quot;PRET&quot;) OR Contains([Combined_Text], &quot;READY TO WEAR&quot;) OR Contains([Combined_Text], &quot;FUSION&quot;)&#xA;THEN &quot;Ready to Wear / Pret&quot;&#xA;&#xA;ELSEIF Contains([Combined_Text], &quot;UNSTITCHED&quot;) OR Contains([Combined_Text], &quot;CHIKANKARI&quot;)&#xA;THEN &quot;Unstitched Collection&quot;&#xA;&#xA;// 5. DEFAULT CATCH-ALL&#xA;ELSE &quot;Core Collection / Brand Campaign&quot;&#xA;ENDIF" field="Campaign_Category" size="2147483647" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Campaign_Category = // 1. PROMOTIONS (Highest Priority)
+IF Contains([Combined_Te...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="558" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="// 1. BRAND SUPPORT REPLIES&#xA;IF Contains(Uppercase([Comment_Text]), &quot;THANK YOU FOR REACHING&quot;) OR Contains(Uppercase([Comment_Text]), &quot;APOLOGIES&quot;) OR Contains(Uppercase([Comment_Text]), &quot;HERE IS THE LINK&quot;) OR Contains(Uppercase([Comment_Text]), &quot;INBOX US&quot;)&#xA;THEN &quot;Brand Reply&quot;&#xA;&#xA;// 2. COMPLAINTS &amp; LOGISTICS ISSUES (Highest Risk)&#xA;ELSEIF Contains(Uppercase([Comment_Text]), &quot;DONT ORDER&quot;) OR Contains(Uppercase([Comment_Text]), &quot;MONTH&quot;) OR Contains(Uppercase([Comment_Text]), &quot;FRAUD&quot;) OR Contains(Uppercase([Comment_Text]), &quot;WORST&quot;) OR Contains(Uppercase([Comment_Text]), &quot;SCAM&quot;) OR Contains(Uppercase([Comment_Text]), &quot;DEFECTED&quot;) OR Contains(Uppercase([Comment_Text]), &quot;LATE&quot;) OR Contains(Uppercase([Comment_Text]), &quot;NOT RECEIVED&quot;)&#xA;THEN &quot;Customer Complaint / Escalation&quot;&#xA;&#xA;// 3. PURCHASE INTENT (Sales Leads)&#xA;ELSEIF Contains(Uppercase([Comment_Text]), &quot;PRICE&quot;) OR Contains(Uppercase([Comment_Text]), &quot;PP&quot;) OR Contains(Uppercase([Comment_Text]), &quot;HOW MUCH&quot;) OR Contains(Uppercase([Comment_Text]), &quot;ORDER&quot;) OR Contains(Uppercase([Comment_Text]), &quot;LINK&quot;) OR Contains(Uppercase([Comment_Text]), &quot;CODE&quot;)&#xA;THEN &quot;Sales Lead / Inquiry&quot;&#xA;&#xA;// 4. INVENTORY ALERTS (Restock Requests)&#xA;ELSEIF Contains(Uppercase([Comment_Text]), &quot;RESTOCK&quot;) OR Contains(Uppercase([Comment_Text]), &quot;SOLD OUT&quot;) OR Contains(Uppercase([Comment_Text]), &quot;AVAILABLE&quot;)&#xA;THEN &quot;Restock Request&quot;&#xA;&#xA;// 5. SPAM &amp; BOTS&#xA;ELSEIF Contains(Uppercase([Comment_Text]), &quot;QURAN&quot;) OR Contains(Uppercase([Comment_Text]), &quot;AC SERVICE&quot;) OR Contains(Uppercase([Comment_Text]), &quot;FOLLOW MY PAGE&quot;) OR Contains(Uppercase([Comment_Text]), &quot;VINES.STORE&quot;)&#xA;THEN &quot;Spam / Bot&quot;&#xA;&#xA;// 6. POSITIVE BRAND SENTIMENT&#xA;ELSEIF Contains(Uppercase([Comment_Text]), &quot;BEAUTIFUL&quot;) OR Contains(Uppercase([Comment_Text]), &quot;NICE&quot;) OR Contains(Uppercase([Comment_Text]), &quot;AWESOME&quot;) OR Contains(Uppercase([Comment_Text]), &quot;LOVE&quot;) OR Contains([Comment_Text], &quot;😍&quot;) OR Contains([Comment_Text], &quot;❤️&quot;) OR Contains([Comment_Text], &quot;🔥&quot;)&#xA;THEN &quot;Positive Engagement&quot;&#xA;&#xA;// 7. CATCH-ALL&#xA;ELSE &quot;General Comment&quot;&#xA;ENDIF" field="Customer_Intent" size="2147483647" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Customer_Intent = // 1. BRAND SUPPORT REPLIES
+IF Contains(Uppercase([Comment_Tex...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="450" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="// 1. BRAND SUPPORT REPLIES&#xA;IF Contains(Uppercase([Comment_Text]), &quot;THANK YOU FOR REACHING&quot;) OR Contains(Uppercase([Comment_Text]), &quot;APOLOGIES&quot;) OR Contains(Uppercase([Comment_Text]), &quot;HERE IS THE LINK&quot;) OR Contains(Uppercase([Comment_Text]), &quot;INBOX US&quot;)&#xA;THEN &quot;Brand Reply&quot;&#xA;&#xA;// 2. COMPLAINTS &amp; LOGISTICS ISSUES (Highest Risk)&#xA;ELSEIF Contains(Uppercase([Comment_Text]), &quot;DONT ORDER&quot;) OR Contains(Uppercase([Comment_Text]), &quot;MONTH&quot;) OR Contains(Uppercase([Comment_Text]), &quot;FRAUD&quot;) OR Contains(Uppercase([Comment_Text]), &quot;WORST&quot;) OR Contains(Uppercase([Comment_Text]), &quot;SCAM&quot;) OR Contains(Uppercase([Comment_Text]), &quot;DEFECTED&quot;) OR Contains(Uppercase([Comment_Text]), &quot;LATE&quot;) OR Contains(Uppercase([Comment_Text]), &quot;NOT RECEIVED&quot;)&#xA;THEN &quot;Customer Complaint / Escalation&quot;&#xA;&#xA;// 3. PURCHASE INTENT (Sales Leads)&#xA;ELSEIF Contains(Uppercase([Comment_Text]), &quot;PRICE&quot;) OR Contains(Uppercase([Comment_Text]), &quot;PP&quot;) OR Contains(Uppercase([Comment_Text]), &quot;HOW MUCH&quot;) OR Contains(Uppercase([Comment_Text]), &quot;ORDER&quot;) OR Contains(Uppercase([Comment_Text]), &quot;LINK&quot;) OR Contains(Uppercase([Comment_Text]), &quot;CODE&quot;)&#xA;THEN &quot;Sales Lead / Inquiry&quot;&#xA;&#xA;// 4. INVENTORY ALERTS (Restock Requests)&#xA;ELSEIF Contains(Uppercase([Comment_Text]), &quot;RESTOCK&quot;) OR Contains(Uppercase([Comment_Text]), &quot;SOLD OUT&quot;) OR Contains(Uppercase([Comment_Text]), &quot;AVAILABLE&quot;)&#xA;THEN &quot;Restock Request&quot;&#xA;&#xA;// 5. SPAM &amp; BOTS&#xA;ELSEIF Contains(Uppercase([Comment_Text]), &quot;QURAN&quot;) OR Contains(Uppercase([Comment_Text]), &quot;AC SERVICE&quot;) OR Contains(Uppercase([Comment_Text]), &quot;FOLLOW MY PAGE&quot;) OR Contains(Uppercase([Comment_Text]), &quot;VINES.STORE&quot;)&#xA;THEN &quot;Spam / Bot&quot;&#xA;&#xA;// 6. POSITIVE BRAND SENTIMENT&#xA;ELSEIF Contains(Uppercase([Comment_Text]), &quot;BEAUTIFUL&quot;) OR Contains(Uppercase([Comment_Text]), &quot;NICE&quot;) OR Contains(Uppercase([Comment_Text]), &quot;AWESOME&quot;) OR Contains(Uppercase([Comment_Text]), &quot;LOVE&quot;) OR Contains([Comment_Text], &quot;😍&quot;) OR Contains([Comment_Text], &quot;❤️&quot;) OR Contains([Comment_Text], &quot;🔥&quot;)&#xA;THEN &quot;Positive Engagement&quot;&#xA;&#xA;// 7. CATCH-ALL&#xA;ELSE &quot;General Comment&quot;&#xA;ENDIF&#xA;" field="comment_intent" size="2147483647" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>comment_intent = // 1. BRAND SUPPORT REPLIES
+IF Contains(Uppercase([Comment_Text...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="546" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Comment_Date" selected="True" type="DateTime" size="19" />
+            <SelectField field="Comment_Likes" selected="True" type="Int64" size="8" />
+            <SelectField field="Scraped_At" selected="True" type="DateTime" size="19" />
+            <SelectField field="F10" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="642" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Platform" selected="True" />
+            <SelectField field="Page" selected="True" />
+            <SelectField field="Post_URL" selected="True" />
+            <SelectField field="Post_ID" selected="True" />
+            <SelectField field="Posted_At" selected="True" type="DateTime" size="19" />
+            <SelectField field="Post_Text" selected="True" />
+            <SelectField field="Likes" selected="True" type="Int64" size="8" />
+            <SelectField field="Shares" selected="True" type="Int64" size="8" />
+            <SelectField field="Comments_Count" selected="True" type="Int64" size="8" />
+            <SelectField field="Scraped_At" selected="True" type="DateTime" size="19" />
+            <SelectField field="post_type" selected="True" />
+            <SelectField field="Campaign_Category" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="654" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Platform" selected="True" />
+            <SelectField field="Page" selected="True" />
+            <SelectField field="Post_ID" selected="True" />
+            <SelectField field="Post_URL" selected="True" />
+            <SelectField field="Comment_ID" selected="True" />
+            <SelectField field="Comment_Text" selected="True" />
+            <SelectField field="Author_Username" selected="True" />
+            <SelectField field="Author_ID" selected="True" />
+            <SelectField field="Author_Profile_Pic_URL" selected="True" />
+            <SelectField field="Is_Verified" selected="True" />
+            <SelectField field="Is_Private" selected="True" />
+            <SelectField field="Comment_Likes" selected="True" />
+            <SelectField field="Replies_Count" selected="True" />
+            <SelectField field="Comment_Posted_At" selected="True" />
+            <SelectField field="Scraped_At" selected="True" />
+            <SelectField field="Customer_Intent" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="642" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Platform" selected="True" />
+            <SelectField field="Page" selected="True" />
+            <SelectField field="Post_ID" selected="True" type="Int64" size="8" />
+            <SelectField field="Post_URL" selected="True" />
+            <SelectField field="Short_Code" selected="True" />
+            <SelectField field="Type" selected="True" />
+            <SelectField field="Caption" selected="True" />
+            <SelectField field="Hashtags" selected="True" />
+            <SelectField field="Mentions" selected="True" />
+            <SelectField field="Posted_At" selected="True" type="DateTime" size="19" />
+            <SelectField field="Likes" selected="True" type="Int64" size="8" />
+            <SelectField field="Comments_Count" selected="True" type="Int64" size="8" />
+            <SelectField field="Owner_Name" selected="True" />
+            <SelectField field="Owner_Username" selected="True" />
+            <SelectField field="Owner_ID" selected="True" />
+            <SelectField field="Image_Count" selected="True" type="Int64" size="8" />
+            <SelectField field="First_Image_URL" selected="True" />
+            <SelectField field="Comments_Disabled" selected="True" />
+            <SelectField field="Child_Posts_Count" selected="True" type="Int64" size="8" />
+            <SelectField field="First_Comment" selected="True" />
+            <SelectField field="Scraped_At" selected="True" type="DateTime" size="19" />
+            <SelectField field="Combined_Text" selected="True" />
+            <SelectField field="Campaign_Category" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="750" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ReplaceChar([Comment_ID], &quot;'&quot;, &quot;&quot;)" field="Comment_ID" size="18" type="String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Comment_ID = ReplaceChar([Comment_ID], "'", "")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="846" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Platform" selected="True" />
+            <SelectField field="Page" selected="True" />
+            <SelectField field="Post_ID" selected="True" type="Int64" size="8" />
+            <SelectField field="Post_URL" selected="True" />
+            <SelectField field="Comment_ID" selected="True" type="Int64" size="8" />
+            <SelectField field="Comment_Text" selected="True" />
+            <SelectField field="Author_Username" selected="True" />
+            <SelectField field="Author_ID" selected="True" />
+            <SelectField field="Author_Profile_Pic_URL" selected="True" />
+            <SelectField field="Is_Verified" selected="True" />
+            <SelectField field="Is_Private" selected="True" />
+            <SelectField field="Comment_Likes" selected="True" type="Int64" size="8" />
+            <SelectField field="Replies_Count" selected="True" type="Int64" size="8" />
+            <SelectField field="Comment_Posted_At" selected="True" type="DateTime" size="19" />
+            <SelectField field="Scraped_At" selected="True" type="DateTime" size="19" />
+            <SelectField field="Customer_Intent" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="258" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DE data.xlsx
+Query=`Instagram_posts$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Platform" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Page" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Post_ID" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Post_URL" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Short_Code" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Type" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Caption" size="992" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="V_WString" />
+            <Field name="Hashtags" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="V_WString" />
+            <Field name="Mentions" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Posted_At" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Likes" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="Double" />
+            <Field name="Comments_Count" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="Double" />
+            <Field name="Owner_Name" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Owner_Username" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Owner_ID" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Image_Count" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="Double" />
+            <Field name="First_Image_URL" size="463" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Comments_Disabled" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="Bool" />
+            <Field name="Child_Posts_Count" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="Double" />
+            <Field name="First_Comment" size="616" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="V_WString" />
+            <Field name="Scraped_At" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="258" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File>D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`facebook_comments$`</File>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DE data.xlsx
+Query=`facebook_comments$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Platform" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`facebook_comments$`" type="V_String" />
+            <Field name="Page" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`facebook_comments$`" type="V_String" />
+            <Field name="Post_ID" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`facebook_comments$`" type="V_String" />
+            <Field name="comment_id_treated" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`facebook_comments$`" type="V_String" />
+            <Field name="Comment_Author" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`facebook_comments$`" type="V_WString" />
+            <Field name="Comment_Date" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`facebook_comments$`" type="V_String" />
+            <Field name="Comment_Text" size="500" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`facebook_comments$`" type="V_WString" />
+            <Field name="Comment_Likes" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`facebook_comments$`" type="V_WString" />
+            <Field name="Scraped_At" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`facebook_comments$`" type="V_String" />
+            <Field name="F10" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`facebook_comments$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="270" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DE data.xlsx
+Query=`Instagram_comments$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Platform" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Page" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Post_ID" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Post_URL" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Comment_ID" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Comment_ID_old" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="comment_id_new" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Comment_Text" size="1612" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="V_WString" />
+            <Field name="Author_Username" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Author_ID" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Author_Profile_Pic_URL" size="567" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Is_Verified" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="Bool" />
+            <Field name="Is_Private" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="Bool" />
+            <Field name="Comment_Likes" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="Double" />
+            <Field name="Replies_Count" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="Double" />
+            <Field name="Comment_Posted_At" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Scraped_At" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="F18" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="Double" />
+            <Field name="F19" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="Double" />
+            <Field name="F20" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Instagram_comments$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="258" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Facebook_posts$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DE data.xlsx
+Query=`Facebook_posts$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Platform" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Facebook_posts$`" type="V_String" />
+            <Field name="Page" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Facebook_posts$`" type="V_String" />
+            <Field name="Post_URL" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Facebook_posts$`" type="V_String" />
+            <Field name="Post_ID" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Facebook_posts$`" type="V_String" />
+            <Field name="Posted_At" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Facebook_posts$`" type="V_String" />
+            <Field name="Post_Text" size="501" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Facebook_posts$`" type="V_WString" />
+            <Field name="Likes" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Facebook_posts$`" type="Double" />
+            <Field name="Shares" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Facebook_posts$`" type="Double" />
+            <Field name="Comments_Count" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Facebook_posts$`" type="Double" />
+            <Field name="Scraped_At" size="255" source="File: D:\University\semester 8\Data Engineering\project2\DE project data\DE data.xlsx|||`Facebook_posts$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>DEProject alterex</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="6966ba64-cd7b-4764-afa7-5acc93489c4c" />
+      <Telemetry>
+        <PreviousWorkflowId value="f41d3b67-f7a3-4bd2-a656-e0f820ba1e33" />
+        <OriginWorkflowId value="f41d3b67-f7a3-4bd2-a656-e0f820ba1e33" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
