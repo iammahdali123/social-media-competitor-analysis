@@ -1,0 +1,1477 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Facebook_posts$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DE data.xlsx
+Query=`Facebook_posts$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Platform" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Facebook_posts$`" type="V_String" />
+            <Field name="Page" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Facebook_posts$`" type="V_String" />
+            <Field name="Post_URL" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Facebook_posts$`" type="V_String" />
+            <Field name="Post_ID" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Facebook_posts$`" type="V_String" />
+            <Field name="Posted_At" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Facebook_posts$`" type="V_String" />
+            <Field name="Post_Text" size="501" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Facebook_posts$`" type="V_WString" />
+            <Field name="Likes" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Facebook_posts$`" type="Double" />
+            <Field name="Shares" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Facebook_posts$`" type="Double" />
+            <Field name="Comments_Count" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Facebook_posts$`" type="Double" />
+            <Field name="Scraped_At" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Facebook_posts$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DE data.xlsx
+Query=`Instagram_posts$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Platform" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Page" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Post_ID" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Post_URL" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Short_Code" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Type" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Caption" size="992" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="V_WString" />
+            <Field name="Hashtags" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="V_WString" />
+            <Field name="Mentions" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Posted_At" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Likes" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="Double" />
+            <Field name="Comments_Count" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="Double" />
+            <Field name="Owner_Name" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Owner_Username" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Owner_ID" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Image_Count" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="Double" />
+            <Field name="First_Image_URL" size="463" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Comments_Disabled" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="Bool" />
+            <Field name="Child_Posts_Count" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="Double" />
+            <Field name="First_Comment" size="616" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="V_WString" />
+            <Field name="Scraped_At" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`facebook_comments$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DE data.xlsx
+Query=`facebook_comments$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Platform" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`facebook_comments$`" type="V_String" />
+            <Field name="Page" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`facebook_comments$`" type="V_String" />
+            <Field name="Post_ID" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`facebook_comments$`" type="Double" />
+            <Field name="comment_id_treated" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`facebook_comments$`" type="V_String" />
+            <Field name="Comment_Author" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`facebook_comments$`" type="V_WString" />
+            <Field name="Comment_Date" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`facebook_comments$`" type="V_String" />
+            <Field name="Comment_Text" size="500" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`facebook_comments$`" type="V_WString" />
+            <Field name="Comment_Likes" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`facebook_comments$`" type="V_WString" />
+            <Field name="Scraped_At" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`facebook_comments$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="102" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DE data.xlsx
+Query=`Instagram_comments$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Platform" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Page" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Post_ID" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Post_URL" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Comment_ID" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Comment_ID_old" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="comment_id_new" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Comment_Text" size="1612" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="V_WString" />
+            <Field name="Author_Username" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Author_ID" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Author_Profile_Pic_URL" size="567" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Is_Verified" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="Bool" />
+            <Field name="Is_Private" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="Bool" />
+            <Field name="Comment_Likes" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="Double" />
+            <Field name="Replies_Count" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="Double" />
+            <Field name="Comment_Posted_At" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Scraped_At" size="255" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="F18" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="Double" />
+            <Field name="F19" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="Double" />
+            <Field name="F20" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="198" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Platform" selected="True" />
+            <Field field="Page" selected="True" />
+            <Field field="Post_ID" selected="True" />
+            <Field field="Post_URL" selected="True" />
+            <Field field="Short_Code" selected="True" />
+            <Field field="Type" selected="True" />
+            <Field field="Caption" selected="True" />
+            <Field field="Hashtags" selected="True" />
+            <Field field="Mentions" selected="True" />
+            <Field field="Posted_At" selected="True" />
+            <Field field="Owner_Name" selected="True" />
+            <Field field="Owner_Username" selected="True" />
+            <Field field="Owner_ID" selected="True" />
+            <Field field="First_Image_URL" selected="True" />
+            <Field field="First_Comment" selected="True" />
+            <Field field="Scraped_At" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Platform" size="9" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="String" />
+            <Field name="Page" size="12" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="String" />
+            <Field name="Post_ID" size="19" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="String" />
+            <Field name="Post_URL" size="40" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="String" />
+            <Field name="Short_Code" size="11" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="String" />
+            <Field name="Type" size="7" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="String" />
+            <Field name="Caption" size="991" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="V_WString" />
+            <Field name="Hashtags" size="110" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="V_WString" />
+            <Field name="Mentions" size="30" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Posted_At" size="24" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="String" />
+            <Field name="Likes" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="Double" />
+            <Field name="Comments_Count" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="Double" />
+            <Field name="Owner_Name" size="28" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Owner_Username" size="21" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Owner_ID" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="Int64" />
+            <Field name="Image_Count" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="Double" />
+            <Field name="First_Image_URL" size="463" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="V_String" />
+            <Field name="Comments_Disabled" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="Bool" />
+            <Field name="Child_Posts_Count" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="Double" />
+            <Field name="First_Comment" size="593" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="V_WString" />
+            <Field name="Scraped_At" size="32" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_posts$`" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="294" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Platform" selected="True" />
+            <Field field="Page" selected="True" />
+            <Field field="Post_ID" selected="True" />
+            <Field field="Post_URL" selected="True" />
+            <Field field="Comment_ID" selected="True" />
+            <Field field="Comment_ID_old" selected="True" />
+            <Field field="comment_id_new" selected="True" />
+            <Field field="Comment_Text" selected="True" />
+            <Field field="Author_Username" selected="True" />
+            <Field field="Author_ID" selected="True" />
+            <Field field="Author_Profile_Pic_URL" selected="True" />
+            <Field field="Comment_Posted_At" selected="True" />
+            <Field field="Scraped_At" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Platform" size="9" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="String" />
+            <Field name="Page" size="12" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="String" />
+            <Field name="Post_ID" size="19" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="String" />
+            <Field name="Post_URL" size="40" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="String" />
+            <Field name="Comment_ID" size="18" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="String" />
+            <Field name="Comment_ID_old" size="20" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="String" />
+            <Field name="comment_id_new" size="20" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="String" />
+            <Field name="Comment_Text" size="1000" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="V_WString" />
+            <Field name="Author_Username" size="30" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Author_ID" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="Int64" />
+            <Field name="Author_Profile_Pic_URL" size="567" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="V_String" />
+            <Field name="Is_Verified" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="Bool" />
+            <Field name="Is_Private" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="Bool" />
+            <Field name="Comment_Likes" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="Double" />
+            <Field name="Replies_Count" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="Double" />
+            <Field name="Comment_Posted_At" size="24" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="String" />
+            <Field name="Scraped_At" size="32" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="String" />
+            <Field name="F18" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="Double" />
+            <Field name="F19" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="Double" />
+            <Field name="F20" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Instagram_comments$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="198" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Platform" selected="True" />
+            <Field field="Page" selected="True" />
+            <Field field="comment_id_treated" selected="True" />
+            <Field field="Comment_Author" selected="True" />
+            <Field field="Comment_Date" selected="True" />
+            <Field field="Comment_Text" selected="True" />
+            <Field field="Comment_Likes" selected="True" />
+            <Field field="Scraped_At" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Platform" size="8" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`facebook_comments$`" type="String" />
+            <Field name="Page" size="12" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`facebook_comments$`" type="String" />
+            <Field name="Post_ID" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`facebook_comments$`" type="Double" />
+            <Field name="comment_id_treated" size="22" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`facebook_comments$`" type="V_String" />
+            <Field name="Comment_Author" size="74" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`facebook_comments$`" type="V_WString" />
+            <Field name="Comment_Date" size="24" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`facebook_comments$`" type="String" />
+            <Field name="Comment_Text" size="500" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`facebook_comments$`" type="V_WString" />
+            <Field name="Comment_Likes" size="35" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`facebook_comments$`" type="V_WString" />
+            <Field name="Scraped_At" size="32" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`facebook_comments$`" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="234" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Platform" selected="True" />
+            <Field field="Page" selected="True" />
+            <Field field="Post_URL" selected="True" />
+            <Field field="Post_ID" selected="True" />
+            <Field field="Posted_At" selected="True" />
+            <Field field="Post_Text" selected="True" />
+            <Field field="Scraped_At" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Platform" size="8" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Facebook_posts$`" type="String" />
+            <Field name="Page" size="12" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Facebook_posts$`" type="String" />
+            <Field name="Post_URL" size="123" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Facebook_posts$`" type="V_String" />
+            <Field name="Post_ID" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Facebook_posts$`" type="Int64" />
+            <Field name="Posted_At" size="24" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Facebook_posts$`" type="String" />
+            <Field name="Post_Text" size="500" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Facebook_posts$`" type="V_WString" />
+            <Field name="Likes" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Facebook_posts$`" type="Double" />
+            <Field name="Shares" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Facebook_posts$`" type="Double" />
+            <Field name="Comments_Count" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Facebook_posts$`" type="Double" />
+            <Field name="Scraped_At" size="32" source="File: C:\Users\mumer\OneDrive\Desktop\DE\DE data.xlsx|||`Facebook_posts$`" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="402" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="510" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Page" action="GroupBy" rename="Page" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="786" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Brand_ID" selected="True" />
+            <SelectField field="Page" selected="True" rename="Brand_Name" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="702" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>Brand_ID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="354" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Uppercase(ToString([Caption]) + &quot; &quot; + ToString([Hashtags]))" field="Combined_Text" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Combined_Text = Uppercase(ToString([Caption]) + " " + ToString([Hashtags]))
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="498" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF Contains([Combined_Text], &quot;SALE&quot;) OR Contains([Combined_Text], &quot;% OFF&quot;)&#xA;THEN &quot;Promotional Sale&quot;&#xA;ELSEIF Contains([Combined_Text], &quot;EID&quot;)&#xA;THEN &quot;Eid Collection&quot;&#xA;ELSEIF Contains([Combined_Text], &quot;RAMADAN&quot;) OR Contains([Combined_Text], &quot;RAMAZAN&quot;)&#xA;THEN &quot;Ramadan Edit&quot;&#xA;ELSEIF Contains([Combined_Text], &quot;SUMMER&quot;) OR Contains([Combined_Text], &quot;LAWN&quot;)&#xA;THEN &quot;Summer Lawn&quot;&#xA;ELSEIF Contains([Combined_Text], &quot;WINTER&quot;) OR Contains([Combined_Text], &quot;KHADDAR&quot;)&#xA;THEN &quot;Winter Collection&quot;&#xA;ELSEIF Contains([Combined_Text], &quot;PRET&quot;) OR Contains([Combined_Text], &quot;READY TO WEAR&quot;)&#xA;THEN &quot;Ready to Wear&quot;&#xA;ELSEIF Contains([Combined_Text], &quot;UNSTITCHED&quot;)&#xA;THEN &quot;Unstitched Collection&quot;&#xA;ELSE &quot;Core Brand Campaign&quot;&#xA;ENDIF" field="Campaign_Category" size="2147483647" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Campaign_Category = IF Contains([Combined_Text], "SALE") OR Contains([Combined_T...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="426" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF Contains(Uppercase([Post_Text]), &quot;SALE&quot;) OR Contains(Uppercase([Post_Text]), &quot;% OFF&quot;)&#xA;THEN &quot;Promotional Sale&quot;&#xA;ELSEIF Contains(Uppercase([Post_Text]), &quot;EID&quot;)&#xA;THEN &quot;Eid Collection&quot;&#xA;ELSEIF Contains(Uppercase([Post_Text]), &quot;RAMADAN&quot;) OR Contains(Uppercase([Post_Text]), &quot;RAMAZAN&quot;)&#xA;THEN &quot;Ramadan Edit&quot;&#xA;ELSEIF Contains(Uppercase([Post_Text]), &quot;SUMMER&quot;) OR Contains(Uppercase([Post_Text]), &quot;LAWN&quot;)&#xA;THEN &quot;Summer Lawn&quot;&#xA;ELSEIF Contains(Uppercase([Post_Text]), &quot;WINTER&quot;) OR Contains(Uppercase([Post_Text]), &quot;KHADDAR&quot;)&#xA;THEN &quot;Winter Collection&quot;&#xA;ELSEIF Contains(Uppercase([Post_Text]), &quot;PRET&quot;) OR Contains(Uppercase([Post_Text]), &quot;READY TO WEAR&quot;)&#xA;THEN &quot;Ready to Wear&quot;&#xA;ELSEIF Contains(Uppercase([Post_Text]), &quot;UNSTITCHED&quot;)&#xA;THEN &quot;Unstitched Collection&quot;&#xA;ELSE &quot;Core Brand Campaign&quot;&#xA;ENDIF" field="Campaign_Category" size="2147483647" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Campaign_Category = IF Contains(Uppercase([Post_Text]), "SALE") OR Contains(Uppe...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="930" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1038" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Campaign_Category" action="GroupBy" rename="Campaign_Category" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="1134" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>Campaign_ID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+          <GroupFields orderChanged="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1242" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Campaign_ID" selected="True" />
+            <SelectField field="Campaign_Category" selected="True" type="String" size="100" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="762" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Platform" selected="True" type="V_String" size="20" />
+            <SelectField field="Page" selected="True" />
+            <SelectField field="Post_ID" selected="True" type="Int64" size="8" />
+            <SelectField field="Posted_At" selected="True" type="DateTime" size="19" />
+            <SelectField field="Likes" selected="True" type="Int64" size="8" />
+            <SelectField field="Comments_Count" selected="True" type="Int64" size="8" />
+            <SelectField field="Scraped_At" selected="True" type="DateTime" size="19" />
+            <SelectField field="Campaign_Category" selected="True" type="String" size="8192" />
+            <SelectField field="Date_Key" selected="True" />
+            <SelectField field="Shares" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="654" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ToNumber(DateTimeFormat(DateTimeParse(Left([Posted_At], 10), &quot;%Y-%m-%d&quot;), &quot;%Y%m%d&quot;))" field="Date_Key" size="4" type="Int32" enabled="true" />
+            <FormulaField expression="0" field="Shares" size="8" type="Int64" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Date_Key = ToNumber(DateTimeFormat(DateTimeParse(Left([Posted_At], 10), "%Y-%m-%...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="738" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Platform" selected="True" type="V_String" size="20" />
+            <SelectField field="Page" selected="True" />
+            <SelectField field="Post_ID" selected="True" />
+            <SelectField field="Posted_At" selected="True" type="DateTime" size="19" />
+            <SelectField field="Likes" selected="True" type="Int64" size="8" />
+            <SelectField field="Shares" selected="True" type="Int64" size="8" />
+            <SelectField field="Comments_Count" selected="True" type="Int64" size="8" />
+            <SelectField field="Scraped_At" selected="True" type="DateTime" size="19" />
+            <SelectField field="Campaign_Category" selected="True" type="String" size="8192" />
+            <SelectField field="Date_Key" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1506" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1626" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Page" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Brand_Name" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Platform" selected="True" input="Left_" />
+                <SelectField field="Left_Page" selected="True" input="Left_" />
+                <SelectField field="Left_Post_ID" selected="True" input="Left_" />
+                <SelectField field="Left_Posted_At" selected="True" input="Left_" />
+                <SelectField field="Left_Likes" selected="True" input="Left_" />
+                <SelectField field="Left_Comments_Count" selected="True" input="Left_" />
+                <SelectField field="Left_Scraped_At" selected="True" input="Left_" />
+                <SelectField field="Left_Campaign_Category" selected="True" input="Left_" />
+                <SelectField field="Left_Date_Key" selected="True" input="Left_" />
+                <SelectField field="Left_Shares" selected="True" input="Left_" />
+                <SelectField field="Right_Brand_ID" selected="True" input="Right_" />
+                <SelectField field="Right_Brand_Name" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1818" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Campaign_Category" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Campaign_Category" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Post_ID" selected="True" input="Left_" />
+                <SelectField field="Left_Brand_ID" selected="True" input="Left_" />
+                <SelectField field="Right_Campaign_ID" selected="True" input="Right_" />
+                <SelectField field="Left_Date_Key" selected="True" input="Left_" />
+                <SelectField field="Left_Likes" selected="True" input="Left_" />
+                <SelectField field="Left_Shares" selected="True" input="Left_" />
+                <SelectField field="Left_Comments_Count" selected="True" input="Left_" />
+                <SelectField field="Left_Platform" selected="True" input="Left_" />
+                <SelectField field="Left_Campaign_Category" selected="False" input="Left_" />
+                <SelectField field="Left_Brand_Name" selected="False" input="Left_" />
+                <SelectField field="Left_Page" selected="False" input="Left_" />
+                <SelectField field="Left_Posted_At" selected="False" input="Left_" />
+                <SelectField field="Left_Scraped_At" selected="False" input="Left_" />
+                <SelectField field="Right_Campaign_Category" selected="False" rename="Right_Campaign_Category" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="510" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF Contains(Uppercase([Comment_Text]), &quot;THANK YOU FOR REACHING&quot;) OR Contains(Uppercase([Comment_Text]), &quot;INBOX US&quot;)&#xA;THEN &quot;Brand Reply&quot;&#xA;ELSEIF Contains(Uppercase([Comment_Text]), &quot;FRAUD&quot;) OR Contains(Uppercase([Comment_Text]), &quot;WORST&quot;) OR Contains(Uppercase([Comment_Text]), &quot;SCAM&quot;) OR Contains(Uppercase([Comment_Text]), &quot;LATE&quot;) OR Contains(Uppercase([Comment_Text]), &quot;DELIVERY&quot;) OR Contains(Uppercase([Comment_Text]), &quot;SHIPMENT&quot;) OR Contains(Uppercase([Comment_Text]), &quot;REFUND&quot;)&#xA;THEN &quot;Customer Complaint&quot;&#xA;ELSEIF Contains(Uppercase([Comment_Text]), &quot;PRICE&quot;) OR Contains(Uppercase([Comment_Text]), &quot;HOW MUCH&quot;) OR Contains(Uppercase([Comment_Text]), &quot;ORDER&quot;) OR Contains(Uppercase([Comment_Text]), &quot;LINK&quot;) OR Contains(Uppercase([Comment_Text]), &quot;DM&quot;)&#xA;THEN &quot;Sales Inquiry&quot;&#xA;ELSEIF Contains(Uppercase([Comment_Text]), &quot;RESTOCK&quot;) OR Contains(Uppercase([Comment_Text]), &quot;SOLD OUT&quot;) OR Contains(Uppercase([Comment_Text]), &quot;AVAILABLE&quot;)&#xA;THEN &quot;Restock Request&quot;&#xA;ELSEIF Contains(Uppercase([Comment_Text]), &quot;BEAUTIFUL&quot;) OR Contains(Uppercase([Comment_Text]), &quot;LOVE&quot;) OR Contains(Uppercase([Comment_Text]), &quot;NICE&quot;)&#xA;THEN &quot;Positive Engagement&quot;&#xA;ELSE &quot;General Comment&quot;&#xA;ENDIF" field="Customer_Intent" size="2147483647" type="V_String" enabled="true" />
+            <FormulaField expression="ToNumber(DateTimeFormat(DateTimeParse(Left([Comment_Posted_At], 10), &quot;%Y-%m-%d&quot;), &quot;%Y%m%d&quot;))" field="Date_Key" size="4" type="Int32" enabled="true" />
+            <FormulaField expression="IF IsNull(ToNumber(ToString([Comment_Likes]))) THEN 0 ELSE ToNumber(ToString([Comment_Likes])) ENDIF" field="Comment_Likes_Clean" size="4" type="Int32" enabled="true" />
+            <FormulaField expression="LowerCase([Author_Username])" field="Author_Username_Clean" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Customer_Intent = IF Contains(Uppercase([Comment_Text]), "THANK YOU FOR REACHING...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="630" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Comment_ID" selected="True" type="V_String" size="100" />
+            <SelectField field="Post_ID" selected="True" type="Int64" size="8" />
+            <SelectField field="Date_Key" selected="True" />
+            <SelectField field="Author_Username_Clean" selected="True" rename="Author_Username" />
+            <SelectField field="Comment_Text" selected="False" size="2000" />
+            <SelectField field="Customer_Intent" selected="True" size="100" />
+            <SelectField field="Comment_Likes_Clean" selected="True" rename="Comment_Likes" />
+            <SelectField field="Platform" selected="True" type="V_String" size="20" />
+            <SelectField field="Page" selected="False" />
+            <SelectField field="Post_URL" selected="False" />
+            <SelectField field="Comment_ID_old" selected="False" />
+            <SelectField field="comment_id_new" selected="False" />
+            <SelectField field="Author_Username" selected="False" />
+            <SelectField field="Author_ID" selected="False" />
+            <SelectField field="Author_Profile_Pic_URL" selected="False" />
+            <SelectField field="Is_Verified" selected="False" />
+            <SelectField field="Is_Private" selected="False" />
+            <SelectField field="Comment_Likes" selected="False" type="V_String" size="100" />
+            <SelectField field="Replies_Count" selected="False" />
+            <SelectField field="Is_Verified_Str" selected="False" rename="Is_Verified" />
+            <SelectField field="Comment_Posted_At" selected="False" rename="Comment_Date" type="DateTime" size="19" />
+            <SelectField field="Scraped_At" selected="False" />
+            <SelectField field="F18" selected="False" />
+            <SelectField field="F19" selected="False" />
+            <SelectField field="F20" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="474" y="726" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF Contains(Uppercase([Comment_Text]), &quot;THANK YOU FOR REACHING&quot;) OR Contains(Uppercase([Comment_Text]), &quot;INBOX US&quot;)&#xA;THEN &quot;Brand Reply&quot;&#xA;ELSEIF Contains(Uppercase([Comment_Text]), &quot;FRAUD&quot;) OR Contains(Uppercase([Comment_Text]), &quot;WORST&quot;) OR Contains(Uppercase([Comment_Text]), &quot;SCAM&quot;) OR Contains(Uppercase([Comment_Text]), &quot;LATE&quot;) OR Contains(Uppercase([Comment_Text]), &quot;DELIVERY&quot;) OR Contains(Uppercase([Comment_Text]), &quot;SHIPMENT&quot;) OR Contains(Uppercase([Comment_Text]), &quot;REFUND&quot;)&#xA;THEN &quot;Customer Complaint&quot;&#xA;ELSEIF Contains(Uppercase([Comment_Text]), &quot;PRICE&quot;) OR Contains(Uppercase([Comment_Text]), &quot;HOW MUCH&quot;) OR Contains(Uppercase([Comment_Text]), &quot;ORDER&quot;) OR Contains(Uppercase([Comment_Text]), &quot;LINK&quot;) OR Contains(Uppercase([Comment_Text]), &quot;DM&quot;)&#xA;THEN &quot;Sales Inquiry&quot;&#xA;ELSEIF Contains(Uppercase([Comment_Text]), &quot;RESTOCK&quot;) OR Contains(Uppercase([Comment_Text]), &quot;SOLD OUT&quot;) OR Contains(Uppercase([Comment_Text]), &quot;AVAILABLE&quot;)&#xA;THEN &quot;Restock Request&quot;&#xA;ELSEIF Contains(Uppercase([Comment_Text]), &quot;BEAUTIFUL&quot;) OR Contains(Uppercase([Comment_Text]), &quot;LOVE&quot;) OR Contains(Uppercase([Comment_Text]), &quot;NICE&quot;)&#xA;THEN &quot;Positive Engagement&quot;&#xA;ELSE &quot;General Comment&quot;&#xA;ENDIF" field="Customer_Intent" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="Lowercase([Comment_Author])" field="Author_Username" size="200" type="V_WString" enabled="true" />
+            <FormulaField expression="ToNumber(DateTimeFormat(DateTimeParse(Left([Comment_Date], 10), &quot;%Y-%m-%d&quot;), &quot;%Y%m%d&quot;))" field="Date_Key" size="4" type="Int32" enabled="true" />
+            <FormulaField expression="IF IsNull(ToNumber(ToString([Comment_Likes]))) THEN 0 ELSE ToNumber(ToString([Comment_Likes])) ENDIF" field="Comment_Likes_Clean" size="4" type="Int32" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Customer_Intent = IF Contains(Uppercase([Comment_Text]), "THANK YOU FOR REACHING...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="654" y="738" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="comment_id_treated" selected="True" rename="Comment_ID" size="100" />
+            <SelectField field="Post_ID" selected="True" type="Int64" size="8" />
+            <SelectField field="Date_Key" selected="True" />
+            <SelectField field="Author_Username" selected="True" />
+            <SelectField field="Comment_Text" selected="False" size="2000" />
+            <SelectField field="Customer_Intent" selected="True" type="V_String" size="200" />
+            <SelectField field="Comment_Likes_Clean" selected="True" rename="Comment_Likes" />
+            <SelectField field="Platform" selected="True" type="V_String" size="20" />
+            <SelectField field="Page" selected="False" />
+            <SelectField field="Comment_Author" selected="False" />
+            <SelectField field="Comment_Date" selected="False" type="DateTime" size="19" />
+            <SelectField field="Comment_Likes" selected="False" />
+            <SelectField field="Scraped_At" selected="False" />
+            <SelectField field="Is_Verified" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="738" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1722" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Post_ID" selected="True" />
+            <SelectField field="Brand_ID" selected="True" />
+            <SelectField field="Date_Key" selected="True" />
+            <SelectField field="Likes" selected="True" />
+            <SelectField field="Shares" selected="True" />
+            <SelectField field="Comments_Count" selected="True" />
+            <SelectField field="Platform" selected="True" />
+            <SelectField field="Page" selected="False" />
+            <SelectField field="Posted_At" selected="False" />
+            <SelectField field="Scraped_At" selected="False" />
+            <SelectField field="Campaign_Category" selected="True" />
+            <SelectField field="Brand_Name" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1938" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Fashion_Brands10;Data Source=.\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=UMERMUZAFFAR;Use Encryption for Data=False;Tag with column collation when possible=False|||Fact_Posts</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionSize>0</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=.\SQLEXPRESS
+Catalog=Fashion_Brands10
+Query=Fact_Posts</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="930" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Fashion_Brands10;Data Source=.\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=UMERMUZAFFAR;Use Encryption for Data=False;Tag with column collation when possible=False|||Dim_Brand</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionSize>0</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=.\SQLEXPRESS
+Catalog=Fashion_Brands10
+Query=Dim_Brand</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1338" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Fashion_Brands10;Data Source=.\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=UMERMUZAFFAR;Use Encryption for Data=False;Tag with column collation when possible=False|||Dim_Campaign</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionSize>0</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=.\SQLEXPRESS
+Catalog=Fashion_Brands10
+Query=Dim_Campaign</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="870" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Fashion_Brands10;Data Source=.\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=UMERMUZAFFAR;Use Encryption for Data=False;Tag with column collation when possible=False|||Dim_Comments</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionSize>0</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=.\SQLEXPRESS
+Catalog=Fashion_Brands10
+Query=Dim_Comments</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="1014" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="1" />
+          <Fields>
+            <Field name="Start_Date" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2026-01-01</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.GenerateRows.GenerateRows">
+        <Position x="1122" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>Start_Date</UpdateField_Name>
+          <CreateField_Name>Full_Date</CreateField_Name>
+          <CreateField_Type>Date</CreateField_Type>
+          <CreateField_Size>10</CreateField_Size>
+          <Expression_Init>[Start_Date]</Expression_Init>
+          <Expression_Cond>[Full_Date] &lt;= DateTimeParse("2030-12-31","%Y-%m-%d")</Expression_Cond>
+          <Expression_Loop>DateTimeAdd([Full_Date], 1, "days")</Expression_Loop>
+          <Expression>[Start_Date][Full_Date] &lt;= DateTimeParse("2030-12-31","%Y-%m-%d")DateTimeAdd([Full_Date], 1, "days")</Expression>
+          <RecordCount value="1826" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxGenerateRows" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1230" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ToNumber(DateTimeFormat([Full_Date], &quot;%Y%m%d&quot;))" field="Date_Key " size="4" type="Int32" enabled="true" />
+            <FormulaField expression="ToNumber(DateTimeFormat([Full_Date], &quot;%d&quot;))" field="Day_Num" size="4" type="Int32" enabled="true" />
+            <FormulaField expression="ToNumber(DateTimeFormat([Full_Date], &quot;%m&quot;))" field="Month_Num" size="4" type="Int32" enabled="true" />
+            <FormulaField expression="DateTimeFormat([Full_Date], &quot;%B&quot;)" field="Month_Name" size="2147483647" type="V_String" enabled="true" />
+            <FormulaField expression="CEIL(ToNumber(DateTimeFormat([Full_Date], &quot;%m&quot;)) / 3.0)" field="Quarter" size="4" type="Int32" enabled="true" />
+            <FormulaField expression="ToNumber(DateTimeFormat([Full_Date], &quot;%Y&quot;))" field="Year" size="4" type="Int32" enabled="true" />
+            <FormulaField expression="IF DateTimeFormat([Full_Date], &quot;%u&quot;) &gt;= &quot;6&quot; THEN &quot;true&quot; ELSE &quot;false&quot; ENDIF" field="Is_Weekend" size="5" type="V_String" enabled="true" />
+            <FormulaField expression="IF ToNumber(DateTimeFormat([Start_Date], &quot;%m&quot;)) IN (3,4,5) THEN &quot;Spring&quot;&#xA;ELSEIF ToNumber(DateTimeFormat([Start_Date], &quot;%m&quot;)) IN (6,7,8) THEN &quot;Summer&quot;&#xA;ELSEIF ToNumber(DateTimeFormat([Start_Date], &quot;%m&quot;)) IN (9,10,11) THEN &quot;Autumn&quot;&#xA;ELSE &quot;Winter&quot;&#xA;ENDIF" field="Season" size="20" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Date_Key  = ToNumber(DateTimeFormat([Full_Date], "%Y%m%d"))
+Day_Num = ToNumber(D...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1374" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Date_Key " selected="True" />
+            <SelectField field="Full_Date" selected="True" />
+            <SelectField field="Day_Num" selected="True" />
+            <SelectField field="Month_Num" selected="True" />
+            <SelectField field="Month_Name" selected="True" />
+            <SelectField field="Quarter" selected="True" />
+            <SelectField field="Year" selected="True" />
+            <SelectField field="Is_Weekend" selected="True" />
+            <SelectField field="Season" selected="True" />
+            <SelectField field="Start_Date" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1506" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Fashion_Brands10;Data Source=.\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=UMERMUZAFFAR;Use Encryption for Data=False;Tag with column collation when possible=False|||Dim_Date</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionSize>0</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=.\SQLEXPRESS
+Catalog=Fashion_Brands10
+Query=Dim_Date</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="606" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ToNumber(DateTimeFormat(DateTimeParse(Left([Posted_At], 10), &quot;%Y-%m-%d&quot;), &quot;%Y%m%d&quot;))" field="Date_Key" size="4" type="Int32" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Date_Key = ToNumber(DateTimeFormat(DateTimeParse(Left([Posted_At], 10), "%Y-%m-%...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="378" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression><![CDATA[  !IsNull([Comment_Text]) AND !IsEmpty([Comment_Text]) AND !IsNull([Comment_Posted_At])]]></Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[  !IsNull([Comment_Text]) AND !IsEmpty([Comment_Text]) AND !IsNull([Comment_Post...]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="294" y="690" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!IsNull([Comment_Date]) AND !IsNull([Comment_Text]) AND !IsEmpty([Comment_Text])</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Comment_Date]) AND !IsNull([Comment_Text]) AND !IsEmpty([Comment_Text])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="29" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="30" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="30" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Join" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Join" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="True" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="True" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>ALTERYX</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="92c1477c-e551-4bf7-a03a-87c584cf2a0b" />
+      <Telemetry>
+        <PreviousWorkflowId value="d0a9f6c9-f721-4e9b-80cb-c3ae10c74fa8" />
+        <OriginWorkflowId value="c449e4aa-2cfe-4d4a-8079-30df52e3d578" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

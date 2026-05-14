@@ -1,0 +1,6 @@
+,
+    {"name": "Beech Tree", "url": "https://www.instagram.com/beechtree_pk/"},
+    {"name": "Cross Stitch", "url": "https://www.instagram.com/crossstitch_official"},
+    {"name": "Khaadi", "url": "https://www.instagram.com/khaadi"},
+    {"name": "So Kamal", "url": "https://www.instagram.com/so.kamal.official/"},
+    {"name": "Generation", "url": "https://www.instagram.com/generation_pk"}

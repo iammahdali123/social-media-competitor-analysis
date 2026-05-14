@@ -1,0 +1,47 @@
+,
+        {
+            "name": "Zscaler",
+            "website_url": "https://www.zscaler.com",
+            "linkedin_url": "https://www.linkedin.com/company/zscaler",
+            "fb_page": "Zscaler",
+            "ig_handle": "zscaler",
+            "yt_channel_url": "https://www.youtube.com/@zscaler",
+            "tiktok_handle": "",
+            "search_term": "\"Zscaler\" AND \"Zero Trust Exchange\" AND \"OT\""
+        },
+        {
+            "name": "Nozomi Networks",
+            "website_url": "https://www.nozominetworks.com",
+            "linkedin_url": "https://www.linkedin.com/company/nozomi-networks",
+            "fb_page": "nozominetworks",
+            "ig_handle": "nozomi_networks",
+            "yt_channel_url": "https://www.youtube.com/@NozomiNetworks",
+            "tiktok_handle": "",
+            "search_term": "\"Nozomi Networks\" AND \"Guardian\" AND \"Visibility\""
+        },
+        {
+            "name": "Dragos",
+            "website_url": "https://www.dragos.com",
+            "linkedin_url": "https://www.linkedin.com/company/dragos-inc",
+            "fb_page": "DragosInc",
+            "ig_handle": "dragosinc",
+            "yt_channel_url": "https://www.youtube.com/@DragosInc",
+            "tiktok_handle": "",
+            "search_term": "\"Dragos\" AND \"Neighborhood Keeper\" AND \"ICS\""
+        },
+        {
+            "name": "Fortinet",
+            "website_url": "https://www.fortinet.com",
+            "linkedin_url": "https://www.linkedin.com/company/fortinet",
+            "fb_page": "fortinet",
+            "ig_handle": "fortinet",
+            "yt_channel_url": "https://www.youtube.com/@fortinet",
+            "tiktok_handle": "",
+            "search_term": "\"Fortinet\" AND \"Microsegmentation\" AND \"OT\""
+        }
+fb
+https://console.apify.com/actors/us5srxAYnsrkgUv2v/input - comment srapper
+https://console.apify.com/actors/KoJrdxJCTtpon81KY/input - profile scrapper 
+
+Instagram
+https://console.apify.com/actors/RB9HEZitC8hIUXAha/input - post and comments
